@@ -1,16 +1,16 @@
 def datosPaciente(nombreDelPaciente, fechaNacimiento, direccionClinica):
     print("+++++++++++++++++++++++++++++++++++++++++++++")
     print("DATOS DEL PACIENTE")
-    print(nombreDelPaciente)
-    print(fechaNacimiento)
-    print(direccionClinica)
+    print("nombre: ", nombreDelPaciente)
+    print("fecha de nacimiento: ", fechaNacimiento)
+    print("direccion de la clinica: ", direccionClinica)
 
 def datosMedicamento(nombreMedicamento, dosisMedicamento, instruccionesDeUso):
     print("+++++++++++++++++++++++++++++++++++++++++++++")
     print("MEDICAMENTO RECETADO")
-    print(nombreMedicamento)
-    print(dosisMedicamento)
-    print(instruccionesDeUso)
+    print("nombre del medicamento: ", nombreMedicamento)
+    print("dosis a tomar: ", dosisMedicamento)
+    print("instrucciones: ", instruccionesDeUso)
 
 def siguienteTurno(fecha, hora):
     print("+++++++++++++++++++++++++++++++++++++++++++++")
